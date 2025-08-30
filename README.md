@@ -19,8 +19,8 @@
 5. `На проверку направить файл crontab и скриншот с результатом работы утилиты`
 ### Решение 2
 1. `Создадим скрипт backup.sh  и сделаем его исполняемым `
-[Создание скрипта](https://github.com/AlexanderSerg-jun/rsync_netotlogy_savin/blob/main/file/create_sh.png)
-[Создание скрипта](https://github.com/AlexanderSerg-jun/rsync_netotlogy_savin/blob/main/file/create_sh.png)
+[Создание скрипта](https://github.com/AlexanderSerg-jun/rsync_netotlogy_savin/blob/main/img/create_sh.png)
+[Создание скрипта](https://github.com/AlexanderSerg-jun/rsync_netotlogy_savin/blob/main/img/create_sh.png)
 
 2.  `Создадим расписание для запуска`
 [Команда для создания расписания](https://github.com/AlexanderSerg-jun/rsync_netotlogy_savin/blob/main/img/cron1.png)
