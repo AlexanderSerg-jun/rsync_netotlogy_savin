@@ -20,7 +20,7 @@
 ### Решение 2
 1. `Создадим скрипт backup.sh  и сделаем его исполняемым `
 ![Создание скрипта](https://github.com/AlexanderSerg-jun/rsync_netotlogy_savin/blob/main/img/create_sh.png)
-![Создание скрипта](https://github.com/AlexanderSerg-jun/rsync_netotlogy_savin/blob/main/img/create_sh.png)
+![Содержимое скрипта](https://github.com/AlexanderSerg-jun/rsync_netotlogy_savin/blob/main/img/create_sh_sod.png)
 
 2.  `Создадим расписание для запуска`
 ![Команда для создания расписания](https://github.com/AlexanderSerg-jun/rsync_netotlogy_savin/blob/main/img/cron1.png)
