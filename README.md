@@ -8,9 +8,9 @@
 4. `На проверку направить скриншот с командой и результатом ее выполнения`
 
 ### Решение №1
-1. `Команда rsynб которая позволяет создавать зеркальную копию домашней директории пользователя в директорию /tmp/backup, будет выглядеть следующим образом`
+1. `Команда rsyn, которая позволяет создавать зеркальную копию домашней директории пользователя в директорию /tmp/backup, будет выглядеть следующим образом`
 `rsync -av --checksum --exclude=".*"  /home/savinas ~/ /tmp/backup`
-[Результат выполнения команды](https://github.com/AlexanderSerg-jun/rsync_netotlogy_savin/blob/main/img/rsync.png)
+![Результат выполнения команды](https://github.com/AlexanderSerg-jun/rsync_netotlogy_savin/blob/main/img/rsync.png)
 ### Задание 2
 1. `Написать скрипт и настроить задачу на регулярное резервное копирование домашней директории пользователя с помощью rsync и cron.`
 2. `Резервная копия должна быть полностью зеркальной`
@@ -19,11 +19,11 @@
 5. `На проверку направить файл crontab и скриншот с результатом работы утилиты`
 ### Решение 2
 1. `Создадим скрипт backup.sh  и сделаем его исполняемым `
-[Создание скрипта](https://github.com/AlexanderSerg-jun/rsync_netotlogy_savin/blob/main/img/create_sh.png)
-[Создание скрипта](https://github.com/AlexanderSerg-jun/rsync_netotlogy_savin/blob/main/img/create_sh.png)
+![Создание скрипта](https://github.com/AlexanderSerg-jun/rsync_netotlogy_savin/blob/main/img/create_sh.png)
+![Создание скрипта](https://github.com/AlexanderSerg-jun/rsync_netotlogy_savin/blob/main/img/create_sh.png)
 
 2.  `Создадим расписание для запуска`
-[Команда для создания расписания](https://github.com/AlexanderSerg-jun/rsync_netotlogy_savin/blob/main/img/cron1.png)
-[Содержимое файла cron](https://github.com/AlexanderSerg-jun/rsync_netotlogy_savin/blob/main/img/cron2.png)
+![Команда для создания расписания](https://github.com/AlexanderSerg-jun/rsync_netotlogy_savin/blob/main/img/cron1.png)
+![Содержимое файла cron](https://github.com/AlexanderSerg-jun/rsync_netotlogy_savin/blob/main/img/cron2.png)
 3. `Выполним скрипт и проверим содержание log файла`
-[Запуск скрипта и проверка его успешного выполнения](https://github.com/AlexanderSerg-jun/rsync_netotlogy_savin/blob/main/img/backup.png)
+![Запуск скрипта и проверка его успешного выполнения](https://github.com/AlexanderSerg-jun/rsync_netotlogy_savin/blob/main/img/backup.png)
